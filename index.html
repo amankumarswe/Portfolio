@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon"
+        href="logo.png"
+        type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">AK.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="firstsection">
+        <div class="leftsection">
+            <p>Hi, my name is</p>
+            <h1>Aman <span class="purple">Kumar</span></h1>
+            <div>I am enthusiast</div>
+            <span id="element"></span>
+        </div>
+        <div class="rightsection">
+            <img src="https://tinyurl.com/4xafpwx8" alt="picture">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about">
+            <p>Hello! I'm Aman, a web developer passionate about creating beautiful and functional digital experiences.
+                With a strong foundation in both front-end and back-end development, I enjoy bringing ideas to life in
+                the browser.</p>
+            <br>
+            <p>My journey in web development began during my university years, and since then, I've been constantly
+                learning and growing in this ever-evolving field. I focus on writing clean, efficient code and creating
+                intuitive user experiences.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skill-container">
+            <div class="skill-item">HTML5</div>
+            <div class="skill-item">CSS3</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">Git & Github</div>
+            <div class="skill-item">C</div>
+            <div class="skill-item">C++</div>
+            <div class="skill-item">AI Fundamentals</div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">Prompt Engineering</div>
+            <div class="skill-item">DBMS</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>School Management Systen</h3>
+                <P>The School Management System is an innovative web-based application designed to streamline the
+                    administrative tasks of a school. This system focuses on student management, allowing for easy
+                    addition, viewing, and deletion of student records. The primary goal is to provide an intuitive and
+                    efficient platform that simplifies the process for administrators, teachers, and staff.</p>
+            </div>
+            <div class="project-card">
+                <h3>Online Quiz System</h3>
+                <p>The Online Quiz System is a dynamic web-based application designed to facilitate the creation,
+                    management, and execution of quizzes and tests. This system is intended to enhance the learning
+                    experience by providing a user-friendly platform for both educators and students. Its primary
+                    objective is to simplify the process of quiz administration and to offer a flexible, interactive
+                    environment for assessing students' knowledge.</p>
+            </div>
+            <div class="project-card">
+                <h3>Image Classification Using AI/ML</h3>
+                <p>This project focuses on leveraging Artificial Intelligence (AI) and Machine Learning (ML) techniques
+                    to classify images into various categories. By training an AI model on a dataset of labeled images,
+                    the system can automatically identify and categorize new images based on their features. The primary
+                    objective is to develop an accurate and efficient image classification model that can be used in
+                    various applications, such as object recognition, medical imaging, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="education-card">
+            <h3>Bachelor of Computer application</h3>
+            <p>H.D Jain College | 2023- Pursuing</p>
+
+        </div>
+        <div class="education-card">
+            <h3>Senior Secondary Education</h3>
+            <p>H.D Jain College | 2021 - 2023</p>
+            <p>Percentage: 83.4%</p>
+        </div>
+        <div class="education-card">
+            <h3>Secondary Education</h3>
+            <p>D.K Carmel Resedential High School | 2020 - 2021</p>
+            <p>Percentage: 93.8%</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div>
+           <!-- Contact me at <a href="mailto:itsamansharma18@gmail.com"> -->
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 All rights reserved. </p>
+  <p>Made with ❤️ by Aman Kumar</p>
+
+        <div class="social-icons">
+            <a href="http://www.linkedin.com/in/dev-amankumar" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/@aman_official_1" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://github.com/amankumarswe" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Full Stack Developer', 'Freelancer', 'Web Designer','Tech Enthusiast','Blogger'] ,
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true
+        });
+    </script>
+     <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            }
+        });
+    </script>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('expanded');
+        });
+    </script>
+</body>
+
+</html>
