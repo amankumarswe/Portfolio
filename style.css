@@ -255,18 +255,27 @@
         margin-bottom: 15px;
     }
 /* Internship Section */
-.internship-card {
-    background: rgba(100, 255, 218, 0.1);
-    padding: 30px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    border-left: 4px solid #64ffda;
-}
+.internship-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+    }
 
-.internship-card h3 {
-    color: #64ffda;
-    margin-bottom: 10px;
-}
+    .internship-card {
+        background: rgba(100, 255, 218, 0.1);
+        border-radius: 10px;
+        padding: 25px;
+        transition: transform 0.3s ease;
+    }
+
+    .internship-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .internship-cardh3 {
+        color: #64ffda;
+        margin-bottom: 15px;
+    }
 
     /* Education Section */
     .education-card {
