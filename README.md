@@ -1,5 +1,3 @@
-# Portfolio
-
 
 # Aman Kumar's Portfolio
 
