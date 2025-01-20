@@ -254,6 +254,19 @@
         color: #64ffda;
         margin-bottom: 15px;
     }
+/* Internship Section */
+.internship-card {
+    background: rgba(100, 255, 218, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border-left: 4px solid #64ffda;
+}
+
+.internship-card h3 {
+    color: #64ffda;
+    margin-bottom: 10px;
+}
 
     /* Education Section */
     .education-card {
