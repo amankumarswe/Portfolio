@@ -179,7 +179,7 @@
     .rightsection img {
         max-width: 400px;
         border-radius: 10px;
-        box-shadow: 0 0 20px rgba(100, 255, 218, 0.2);
+/*         box-shadow: 0 0 20px rgba(100, 255, 218, 0.2); */
     }
 
     /* Section Styling */
@@ -272,7 +272,7 @@
         transform: translateY(-10px);
     }
 
-    .internship-cardh3 {
+    .internship-card h3 {
         color: #64ffda;
         margin-bottom: 15px;
     }
