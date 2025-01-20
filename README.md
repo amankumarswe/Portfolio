@@ -1,8 +1,5 @@
 # Portfolio
 
-Here's a suggested README description for your portfolio website:
-
----
 
 # Aman Kumar's Portfolio
 
