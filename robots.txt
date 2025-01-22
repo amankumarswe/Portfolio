@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /style.css
+Allow: /herologo.png
+Allow: /logo.png
+
+# Sitemaps
+Sitemap: https://coderamankr.github.io/Portfolio/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
